@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA1BEBBF2204764400F936DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BEBBE2204764400F936DF /* main.m */; };
+		DA1BEBC22204764400F936DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BEBC12204764400F936DF /* AppDelegate.m */; };
+		DA1BEBC52204764400F936DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BEBC42204764400F936DF /* ViewController.m */; };
+		DA1BEBC82204764400F936DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1BEBC62204764400F936DF /* Main.storyboard */; };
+		DA1BEBCA2204764400F936DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1BEBC92204764400F936DF /* Assets.xcassets */; };
+		DA1BEBCD2204764400F936DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1BEBCB2204764400F936DF /* LaunchScreen.storyboard */; };
+		DA1BEBD82204764400F936DF /* uitapGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BEBD72204764400F936DF /* uitapGestureTests.m */; };
+		DA1BEBE32204764400F936DF /* uitapGestureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BEBE22204764400F936DF /* uitapGestureUITests.m */; };
+		DA99DC8221D5085C0009ABAF /* CGView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA99DC8121D5085C0009ABAF /* CGView.m */; };
+		DABA20AE21906E8600038CB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DABA20AD21906E8600038CB3 /* main.m */; };
+		DABA20B121906E8600038CB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DABA20B021906E8600038CB3 /* AppDelegate.m */; };
+		DABA20B421906E8600038CB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DABA20B321906E8600038CB3 /* ViewController.m */; };
+		DABA20B721906E8600038CB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABA20B521906E8600038CB3 /* Main.storyboard */; };
+		DABA20B921906E8600038CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABA20B821906E8600038CB3 /* Assets.xcassets */; };
+		DABA20BC21906E8600038CB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABA20BA21906E8600038CB3 /* LaunchScreen.storyboard */; };
+		DABA20C721906E8700038CB3 /* autolayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DABA20C621906E8700038CB3 /* autolayoutTests.m */; };
+		DABA20D221906E8700038CB3 /* autolayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DABA20D121906E8700038CB3 /* autolayoutUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA1BEBD42204764400F936DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DABA20A121906E8600038CB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA1BEBBA2204764400F936DF;
+			remoteInfo = uitapGesture;
+		};
+		DA1BEBDF2204764400F936DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DABA20A121906E8600038CB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA1BEBBA2204764400F936DF;
+			remoteInfo = uitapGesture;
+		};
+		DABA20C321906E8600038CB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DABA20A121906E8600038CB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DABA20A821906E8600038CB3;
+			remoteInfo = autolayout;
+		};
+		DABA20CE21906E8700038CB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DABA20A121906E8600038CB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DABA20A821906E8600038CB3;
+			remoteInfo = autolayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA1BEBBB2204764400F936DF /* uitapGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uitapGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1BEBBE2204764400F936DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA1BEBC02204764400F936DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA1BEBC12204764400F936DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA1BEBC32204764400F936DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA1BEBC42204764400F936DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA1BEBC72204764400F936DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA1BEBC92204764400F936DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA1BEBCC2204764400F936DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA1BEBCE2204764400F936DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1BEBD32204764400F936DF /* uitapGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uitapGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1BEBD72204764400F936DF /* uitapGestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uitapGestureTests.m; sourceTree = "<group>"; };
+		DA1BEBD92204764400F936DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1BEBDE2204764400F936DF /* uitapGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uitapGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1BEBE22204764400F936DF /* uitapGestureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uitapGestureUITests.m; sourceTree = "<group>"; };
+		DA1BEBE42204764400F936DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA99DC8021D5085C0009ABAF /* CGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGView.h; sourceTree = "<group>"; };
+		DA99DC8121D5085C0009ABAF /* CGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGView.m; sourceTree = "<group>"; };
+		DABA20A921906E8600038CB3 /* autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABA20AD21906E8600038CB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DABA20AF21906E8600038CB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DABA20B021906E8600038CB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DABA20B221906E8600038CB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DABA20B321906E8600038CB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DABA20B621906E8600038CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DABA20B821906E8600038CB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DABA20BB21906E8600038CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DABA20BD21906E8600038CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABA20C221906E8600038CB3 /* autolayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autolayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABA20C621906E8700038CB3 /* autolayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = autolayoutTests.m; sourceTree = "<group>"; };
+		DABA20C821906E8700038CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABA20CD21906E8700038CB3 /* autolayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autolayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABA20D121906E8700038CB3 /* autolayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = autolayoutUITests.m; sourceTree = "<group>"; };
+		DABA20D321906E8700038CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA1BEBB82204764400F936DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1BEBD02204764400F936DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1BEBDB2204764400F936DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABA20A621906E8600038CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABA20BF21906E8600038CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABA20CA21906E8700038CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA1BEBBC2204764400F936DF /* uitapGesture */ = {
+			isa = PBXGroup;
+			children = (
+				DA1BEBC02204764400F936DF /* AppDelegate.h */,
+				DA1BEBC12204764400F936DF /* AppDelegate.m */,
+				DA1BEBC32204764400F936DF /* ViewController.h */,
+				DA1BEBC42204764400F936DF /* ViewController.m */,
+				DA1BEBC62204764400F936DF /* Main.storyboard */,
+				DA1BEBC92204764400F936DF /* Assets.xcassets */,
+				DA1BEBCB2204764400F936DF /* LaunchScreen.storyboard */,
+				DA1BEBCE2204764400F936DF /* Info.plist */,
+				DA1BEBBD2204764400F936DF /* Supporting Files */,
+			);
+			path = uitapGesture;
+			sourceTree = "<group>";
+		};
+		DA1BEBBD2204764400F936DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA1BEBBE2204764400F936DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA1BEBD62204764400F936DF /* uitapGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA1BEBD72204764400F936DF /* uitapGestureTests.m */,
+				DA1BEBD92204764400F936DF /* Info.plist */,
+			);
+			path = uitapGestureTests;
+			sourceTree = "<group>";
+		};
+		DA1BEBE12204764400F936DF /* uitapGestureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA1BEBE22204764400F936DF /* uitapGestureUITests.m */,
+				DA1BEBE42204764400F936DF /* Info.plist */,
+			);
+			path = uitapGestureUITests;
+			sourceTree = "<group>";
+		};
+		DABA20A021906E8600038CB3 = {
+			isa = PBXGroup;
+			children = (
+				DABA20AB21906E8600038CB3 /* autolayout */,
+				DABA20C521906E8600038CB3 /* autolayoutTests */,
+				DABA20D021906E8700038CB3 /* autolayoutUITests */,
+				DA1BEBBC2204764400F936DF /* uitapGesture */,
+				DA1BEBD62204764400F936DF /* uitapGestureTests */,
+				DA1BEBE12204764400F936DF /* uitapGestureUITests */,
+				DABA20AA21906E8600038CB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DABA20AA21906E8600038CB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DABA20A921906E8600038CB3 /* autolayout.app */,
+				DABA20C221906E8600038CB3 /* autolayoutTests.xctest */,
+				DABA20CD21906E8700038CB3 /* autolayoutUITests.xctest */,
+				DA1BEBBB2204764400F936DF /* uitapGesture.app */,
+				DA1BEBD32204764400F936DF /* uitapGestureTests.xctest */,
+				DA1BEBDE2204764400F936DF /* uitapGestureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DABA20AB21906E8600038CB3 /* autolayout */ = {
+			isa = PBXGroup;
+			children = (
+				DABA20AF21906E8600038CB3 /* AppDelegate.h */,
+				DABA20B021906E8600038CB3 /* AppDelegate.m */,
+				DABA20B221906E8600038CB3 /* ViewController.h */,
+				DABA20B321906E8600038CB3 /* ViewController.m */,
+				DABA20B521906E8600038CB3 /* Main.storyboard */,
+				DABA20B821906E8600038CB3 /* Assets.xcassets */,
+				DABA20BA21906E8600038CB3 /* LaunchScreen.storyboard */,
+				DABA20BD21906E8600038CB3 /* Info.plist */,
+				DABA20AC21906E8600038CB3 /* Supporting Files */,
+				DA99DC8021D5085C0009ABAF /* CGView.h */,
+				DA99DC8121D5085C0009ABAF /* CGView.m */,
+			);
+			path = autolayout;
+			sourceTree = "<group>";
+		};
+		DABA20AC21906E8600038CB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DABA20AD21906E8600038CB3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DABA20C521906E8600038CB3 /* autolayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				DABA20C621906E8700038CB3 /* autolayoutTests.m */,
+				DABA20C821906E8700038CB3 /* Info.plist */,
+			);
+			path = autolayoutTests;
+			sourceTree = "<group>";
+		};
+		DABA20D021906E8700038CB3 /* autolayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DABA20D121906E8700038CB3 /* autolayoutUITests.m */,
+				DABA20D321906E8700038CB3 /* Info.plist */,
+			);
+			path = autolayoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA1BEBBA2204764400F936DF /* uitapGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1BEBEB2204764400F936DF /* Build configuration list for PBXNativeTarget "uitapGesture" */;
+			buildPhases = (
+				DA1BEBB72204764400F936DF /* Sources */,
+				DA1BEBB82204764400F936DF /* Frameworks */,
+				DA1BEBB92204764400F936DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uitapGesture;
+			productName = uitapGesture;
+			productReference = DA1BEBBB2204764400F936DF /* uitapGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA1BEBD22204764400F936DF /* uitapGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1BEBEC2204764400F936DF /* Build configuration list for PBXNativeTarget "uitapGestureTests" */;
+			buildPhases = (
+				DA1BEBCF2204764400F936DF /* Sources */,
+				DA1BEBD02204764400F936DF /* Frameworks */,
+				DA1BEBD12204764400F936DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1BEBD52204764400F936DF /* PBXTargetDependency */,
+			);
+			name = uitapGestureTests;
+			productName = uitapGestureTests;
+			productReference = DA1BEBD32204764400F936DF /* uitapGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA1BEBDD2204764400F936DF /* uitapGestureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1BEBED2204764400F936DF /* Build configuration list for PBXNativeTarget "uitapGestureUITests" */;
+			buildPhases = (
+				DA1BEBDA2204764400F936DF /* Sources */,
+				DA1BEBDB2204764400F936DF /* Frameworks */,
+				DA1BEBDC2204764400F936DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1BEBE02204764400F936DF /* PBXTargetDependency */,
+			);
+			name = uitapGestureUITests;
+			productName = uitapGestureUITests;
+			productReference = DA1BEBDE2204764400F936DF /* uitapGestureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DABA20A821906E8600038CB3 /* autolayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABA20D621906E8700038CB3 /* Build configuration list for PBXNativeTarget "autolayout" */;
+			buildPhases = (
+				DABA20A521906E8600038CB3 /* Sources */,
+				DABA20A621906E8600038CB3 /* Frameworks */,
+				DABA20A721906E8600038CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = autolayout;
+			productName = autolayout;
+			productReference = DABA20A921906E8600038CB3 /* autolayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DABA20C121906E8600038CB3 /* autolayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABA20D921906E8700038CB3 /* Build configuration list for PBXNativeTarget "autolayoutTests" */;
+			buildPhases = (
+				DABA20BE21906E8600038CB3 /* Sources */,
+				DABA20BF21906E8600038CB3 /* Frameworks */,
+				DABA20C021906E8600038CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DABA20C421906E8600038CB3 /* PBXTargetDependency */,
+			);
+			name = autolayoutTests;
+			productName = autolayoutTests;
+			productReference = DABA20C221906E8600038CB3 /* autolayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DABA20CC21906E8700038CB3 /* autolayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABA20DC21906E8700038CB3 /* Build configuration list for PBXNativeTarget "autolayoutUITests" */;
+			buildPhases = (
+				DABA20C921906E8700038CB3 /* Sources */,
+				DABA20CA21906E8700038CB3 /* Frameworks */,
+				DABA20CB21906E8700038CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DABA20CF21906E8700038CB3 /* PBXTargetDependency */,
+			);
+			name = autolayoutUITests;
+			productName = autolayoutUITests;
+			productReference = DABA20CD21906E8700038CB3 /* autolayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DABA20A121906E8600038CB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "菊长";
+				TargetAttributes = {
+					DA1BEBBA2204764400F936DF = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					DA1BEBD22204764400F936DF = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA1BEBBA2204764400F936DF;
+					};
+					DA1BEBDD2204764400F936DF = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA1BEBBA2204764400F936DF;
+					};
+					DABA20A821906E8600038CB3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					DABA20C121906E8600038CB3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DABA20A821906E8600038CB3;
+					};
+					DABA20CC21906E8700038CB3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DABA20A821906E8600038CB3;
+					};
+				};
+			};
+			buildConfigurationList = DABA20A421906E8600038CB3 /* Build configuration list for PBXProject "autolayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DABA20A021906E8600038CB3;
+			productRefGroup = DABA20AA21906E8600038CB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DABA20A821906E8600038CB3 /* autolayout */,
+				DABA20C121906E8600038CB3 /* autolayoutTests */,
+				DABA20CC21906E8700038CB3 /* autolayoutUITests */,
+				DA1BEBBA2204764400F936DF /* uitapGesture */,
+				DA1BEBD22204764400F936DF /* uitapGestureTests */,
+				DA1BEBDD2204764400F936DF /* uitapGestureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA1BEBB92204764400F936DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1BEBCD2204764400F936DF /* LaunchScreen.storyboard in Resources */,
+				DA1BEBCA2204764400F936DF /* Assets.xcassets in Resources */,
+				DA1BEBC82204764400F936DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1BEBD12204764400F936DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1BEBDC2204764400F936DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABA20A721906E8600038CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABA20BC21906E8600038CB3 /* LaunchScreen.storyboard in Resources */,
+				DABA20B921906E8600038CB3 /* Assets.xcassets in Resources */,
+				DABA20B721906E8600038CB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABA20C021906E8600038CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABA20CB21906E8700038CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA1BEBB72204764400F936DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1BEBC52204764400F936DF /* ViewController.m in Sources */,
+				DA1BEBC22204764400F936DF /* AppDelegate.m in Sources */,
+				DA1BEBBF2204764400F936DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1BEBCF2204764400F936DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1BEBD82204764400F936DF /* uitapGestureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1BEBDA2204764400F936DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1BEBE32204764400F936DF /* uitapGestureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABA20A521906E8600038CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA99DC8221D5085C0009ABAF /* CGView.m in Sources */,
+				DABA20B421906E8600038CB3 /* ViewController.m in Sources */,
+				DABA20B121906E8600038CB3 /* AppDelegate.m in Sources */,
+				DABA20AE21906E8600038CB3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABA20BE21906E8600038CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABA20C721906E8700038CB3 /* autolayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABA20C921906E8700038CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABA20D221906E8700038CB3 /* autolayoutUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA1BEBD52204764400F936DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA1BEBBA2204764400F936DF /* uitapGesture */;
+			targetProxy = DA1BEBD42204764400F936DF /* PBXContainerItemProxy */;
+		};
+		DA1BEBE02204764400F936DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA1BEBBA2204764400F936DF /* uitapGesture */;
+			targetProxy = DA1BEBDF2204764400F936DF /* PBXContainerItemProxy */;
+		};
+		DABA20C421906E8600038CB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DABA20A821906E8600038CB3 /* autolayout */;
+			targetProxy = DABA20C321906E8600038CB3 /* PBXContainerItemProxy */;
+		};
+		DABA20CF21906E8700038CB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DABA20A821906E8600038CB3 /* autolayout */;
+			targetProxy = DABA20CE21906E8700038CB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA1BEBC62204764400F936DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA1BEBC72204764400F936DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA1BEBCB2204764400F936DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA1BEBCC2204764400F936DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DABA20B521906E8600038CB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABA20B621906E8600038CB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DABA20BA21906E8600038CB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABA20BB21906E8600038CB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA1BEBE52204764400F936DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = uitapGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junzhang.uitapGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA1BEBE62204764400F936DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = uitapGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junzhang.uitapGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA1BEBE72204764400F936DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = uitapGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junzhang.uitapGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uitapGesture.app/uitapGesture";
+			};
+			name = Debug;
+		};
+		DA1BEBE82204764400F936DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = uitapGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junzhang.uitapGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uitapGesture.app/uitapGesture";
+			};
+			name = Release;
+		};
+		DA1BEBE92204764400F936DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = uitapGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junzhang.uitapGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = uitapGesture;
+			};
+			name = Debug;
+		};
+		DA1BEBEA2204764400F936DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = uitapGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junzhang.uitapGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = uitapGesture;
+			};
+			name = Release;
+		};
+		DABA20D421906E8700038CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DABA20D521906E8700038CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DABA20D721906E8700038CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = autolayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junzhang.autolayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DABA20D821906E8700038CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = autolayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junzhang.autolayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DABA20DA21906E8700038CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = autolayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junzhang.autolayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autolayout.app/autolayout";
+			};
+			name = Debug;
+		};
+		DABA20DB21906E8700038CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = autolayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junzhang.autolayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autolayout.app/autolayout";
+			};
+			name = Release;
+		};
+		DABA20DD21906E8700038CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = autolayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junzhang.autolayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = autolayout;
+			};
+			name = Debug;
+		};
+		DABA20DE21906E8700038CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = autolayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junzhang.autolayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = autolayout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA1BEBEB2204764400F936DF /* Build configuration list for PBXNativeTarget "uitapGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1BEBE52204764400F936DF /* Debug */,
+				DA1BEBE62204764400F936DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA1BEBEC2204764400F936DF /* Build configuration list for PBXNativeTarget "uitapGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1BEBE72204764400F936DF /* Debug */,
+				DA1BEBE82204764400F936DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA1BEBED2204764400F936DF /* Build configuration list for PBXNativeTarget "uitapGestureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1BEBE92204764400F936DF /* Debug */,
+				DA1BEBEA2204764400F936DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DABA20A421906E8600038CB3 /* Build configuration list for PBXProject "autolayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABA20D421906E8700038CB3 /* Debug */,
+				DABA20D521906E8700038CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABA20D621906E8700038CB3 /* Build configuration list for PBXNativeTarget "autolayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABA20D721906E8700038CB3 /* Debug */,
+				DABA20D821906E8700038CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABA20D921906E8700038CB3 /* Build configuration list for PBXNativeTarget "autolayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABA20DA21906E8700038CB3 /* Debug */,
+				DABA20DB21906E8700038CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABA20DC21906E8700038CB3 /* Build configuration list for PBXNativeTarget "autolayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABA20DD21906E8700038CB3 /* Debug */,
+				DABA20DE21906E8700038CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DABA20A121906E8600038CB3 /* Project object */;
+}
