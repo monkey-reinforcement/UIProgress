@@ -41,7 +41,7 @@
     */
     
     /*
-     *手动创建layer
+     *手动创建layer 控件的跟layer没有隐式动画
      */
     CALayer *layer = [[CALayer alloc]init];
     layer.backgroundColor = [UIColor redColor].CGColor;
@@ -56,7 +56,11 @@
     //
     UITouch *t = [touches anyObject];
     CGPoint p = [t locationInView:t.view];
+    //禁用隐式动画
+    [CATransaction begin];
+    [CATransaction setDisableActions:YES];
     self.layer.position = p;
+    [CATransaction commit];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -16,6 +16,14 @@
 		DA1BEBD82204764400F936DF /* uitapGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BEBD72204764400F936DF /* uitapGestureTests.m */; };
 		DA1BEBE32204764400F936DF /* uitapGestureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BEBE22204764400F936DF /* uitapGestureUITests.m */; };
 		DA99DC8221D5085C0009ABAF /* CGView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA99DC8121D5085C0009ABAF /* CGView.m */; };
+		DAA2FDAA221D8860007E0FF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA2FDA9221D8860007E0FF8 /* main.m */; };
+		DAA2FDAD221D8860007E0FF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA2FDAC221D8860007E0FF8 /* AppDelegate.m */; };
+		DAA2FDB0221D8860007E0FF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA2FDAF221D8860007E0FF8 /* ViewController.m */; };
+		DAA2FDB3221D8861007E0FF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA2FDB1221D8861007E0FF8 /* Main.storyboard */; };
+		DAA2FDB5221D8861007E0FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA2FDB4221D8861007E0FF8 /* Assets.xcassets */; };
+		DAA2FDB8221D8861007E0FF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA2FDB6221D8861007E0FF8 /* LaunchScreen.storyboard */; };
+		DAA2FDC3221D8861007E0FF8 /* CATransformTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA2FDC2221D8861007E0FF8 /* CATransformTests.m */; };
+		DAA2FDCE221D8861007E0FF8 /* CATransformUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA2FDCD221D8861007E0FF8 /* CATransformUITests.m */; };
 		DABA20AE21906E8600038CB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DABA20AD21906E8600038CB3 /* main.m */; };
 		DABA20B121906E8600038CB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DABA20B021906E8600038CB3 /* AppDelegate.m */; };
 		DABA20B421906E8600038CB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DABA20B321906E8600038CB3 /* ViewController.m */; };
@@ -40,6 +48,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = DA1BEBBA2204764400F936DF;
 			remoteInfo = uitapGesture;
+		};
+		DAA2FDBF221D8861007E0FF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DABA20A121906E8600038CB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA2FDA5221D885F007E0FF8;
+			remoteInfo = CATransform;
+		};
+		DAA2FDCA221D8861007E0FF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DABA20A121906E8600038CB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA2FDA5221D885F007E0FF8;
+			remoteInfo = CATransform;
 		};
 		DABA20C321906E8600038CB3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -76,6 +98,22 @@
 		DA1BEBE42204764400F936DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA99DC8021D5085C0009ABAF /* CGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGView.h; sourceTree = "<group>"; };
 		DA99DC8121D5085C0009ABAF /* CGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGView.m; sourceTree = "<group>"; };
+		DAA2FDA6221D885F007E0FF8 /* CATransform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATransform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA2FDA9221D8860007E0FF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAA2FDAB221D8860007E0FF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAA2FDAC221D8860007E0FF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAA2FDAE221D8860007E0FF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAA2FDAF221D8860007E0FF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAA2FDB2221D8861007E0FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAA2FDB4221D8861007E0FF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAA2FDB7221D8861007E0FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAA2FDB9221D8861007E0FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA2FDBE221D8861007E0FF8 /* CATransformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATransformTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA2FDC2221D8861007E0FF8 /* CATransformTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATransformTests.m; sourceTree = "<group>"; };
+		DAA2FDC4221D8861007E0FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA2FDC9221D8861007E0FF8 /* CATransformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATransformUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA2FDCD221D8861007E0FF8 /* CATransformUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATransformUITests.m; sourceTree = "<group>"; };
+		DAA2FDCF221D8861007E0FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DABA20A921906E8600038CB3 /* autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DABA20AD21906E8600038CB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DABA20AF21906E8600038CB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +148,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DA1BEBDB2204764400F936DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA2FDA3221D885F007E0FF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA2FDBB221D8861007E0FF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA2FDC6221D8861007E0FF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -182,6 +241,48 @@
 			path = uitapGestureUITests;
 			sourceTree = "<group>";
 		};
+		DAA2FDA7221D8860007E0FF8 /* CATransform */ = {
+			isa = PBXGroup;
+			children = (
+				DAA2FDAB221D8860007E0FF8 /* AppDelegate.h */,
+				DAA2FDAC221D8860007E0FF8 /* AppDelegate.m */,
+				DAA2FDAE221D8860007E0FF8 /* ViewController.h */,
+				DAA2FDAF221D8860007E0FF8 /* ViewController.m */,
+				DAA2FDB1221D8861007E0FF8 /* Main.storyboard */,
+				DAA2FDB4221D8861007E0FF8 /* Assets.xcassets */,
+				DAA2FDB6221D8861007E0FF8 /* LaunchScreen.storyboard */,
+				DAA2FDB9221D8861007E0FF8 /* Info.plist */,
+				DAA2FDA8221D8860007E0FF8 /* Supporting Files */,
+			);
+			path = CATransform;
+			sourceTree = "<group>";
+		};
+		DAA2FDA8221D8860007E0FF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAA2FDA9221D8860007E0FF8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAA2FDC1221D8861007E0FF8 /* CATransformTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAA2FDC2221D8861007E0FF8 /* CATransformTests.m */,
+				DAA2FDC4221D8861007E0FF8 /* Info.plist */,
+			);
+			path = CATransformTests;
+			sourceTree = "<group>";
+		};
+		DAA2FDCC221D8861007E0FF8 /* CATransformUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAA2FDCD221D8861007E0FF8 /* CATransformUITests.m */,
+				DAA2FDCF221D8861007E0FF8 /* Info.plist */,
+			);
+			path = CATransformUITests;
+			sourceTree = "<group>";
+		};
 		DABA20A021906E8600038CB3 = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +292,9 @@
 				DA1BEBBC2204764400F936DF /* uitapGesture */,
 				DA1BEBD62204764400F936DF /* uitapGestureTests */,
 				DA1BEBE12204764400F936DF /* uitapGestureUITests */,
+				DAA2FDA7221D8860007E0FF8 /* CATransform */,
+				DAA2FDC1221D8861007E0FF8 /* CATransformTests */,
+				DAA2FDCC221D8861007E0FF8 /* CATransformUITests */,
 				DABA20AA21906E8600038CB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -204,6 +308,9 @@
 				DA1BEBBB2204764400F936DF /* uitapGesture.app */,
 				DA1BEBD32204764400F936DF /* uitapGestureTests.xctest */,
 				DA1BEBDE2204764400F936DF /* uitapGestureUITests.xctest */,
+				DAA2FDA6221D885F007E0FF8 /* CATransform.app */,
+				DAA2FDBE221D8861007E0FF8 /* CATransformTests.xctest */,
+				DAA2FDC9221D8861007E0FF8 /* CATransformUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -308,6 +415,59 @@
 			productReference = DA1BEBDE2204764400F936DF /* uitapGestureUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		DAA2FDA5221D885F007E0FF8 /* CATransform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA2FDD6221D8861007E0FF8 /* Build configuration list for PBXNativeTarget "CATransform" */;
+			buildPhases = (
+				DAA2FDA2221D885F007E0FF8 /* Sources */,
+				DAA2FDA3221D885F007E0FF8 /* Frameworks */,
+				DAA2FDA4221D885F007E0FF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CATransform;
+			productName = CATransform;
+			productReference = DAA2FDA6221D885F007E0FF8 /* CATransform.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAA2FDBD221D8861007E0FF8 /* CATransformTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA2FDD7221D8861007E0FF8 /* Build configuration list for PBXNativeTarget "CATransformTests" */;
+			buildPhases = (
+				DAA2FDBA221D8861007E0FF8 /* Sources */,
+				DAA2FDBB221D8861007E0FF8 /* Frameworks */,
+				DAA2FDBC221D8861007E0FF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAA2FDC0221D8861007E0FF8 /* PBXTargetDependency */,
+			);
+			name = CATransformTests;
+			productName = CATransformTests;
+			productReference = DAA2FDBE221D8861007E0FF8 /* CATransformTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAA2FDC8221D8861007E0FF8 /* CATransformUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA2FDD8221D8861007E0FF8 /* Build configuration list for PBXNativeTarget "CATransformUITests" */;
+			buildPhases = (
+				DAA2FDC5221D8861007E0FF8 /* Sources */,
+				DAA2FDC6221D8861007E0FF8 /* Frameworks */,
+				DAA2FDC7221D8861007E0FF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAA2FDCB221D8861007E0FF8 /* PBXTargetDependency */,
+			);
+			name = CATransformUITests;
+			productName = CATransformUITests;
+			productReference = DAA2FDC9221D8861007E0FF8 /* CATransformUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		DABA20A821906E8600038CB3 /* autolayout */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DABA20D621906E8700038CB3 /* Build configuration list for PBXNativeTarget "autolayout" */;
@@ -384,6 +544,20 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = DA1BEBBA2204764400F936DF;
 					};
+					DAA2FDA5221D885F007E0FF8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					DAA2FDBD221D8861007E0FF8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAA2FDA5221D885F007E0FF8;
+					};
+					DAA2FDC8221D8861007E0FF8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAA2FDA5221D885F007E0FF8;
+					};
 					DABA20A821906E8600038CB3 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
@@ -419,6 +593,9 @@
 				DA1BEBBA2204764400F936DF /* uitapGesture */,
 				DA1BEBD22204764400F936DF /* uitapGestureTests */,
 				DA1BEBDD2204764400F936DF /* uitapGestureUITests */,
+				DAA2FDA5221D885F007E0FF8 /* CATransform */,
+				DAA2FDBD221D8861007E0FF8 /* CATransformTests */,
+				DAA2FDC8221D8861007E0FF8 /* CATransformUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -442,6 +619,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DA1BEBDC2204764400F936DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA2FDA4221D885F007E0FF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA2FDB8221D8861007E0FF8 /* LaunchScreen.storyboard in Resources */,
+				DAA2FDB5221D8861007E0FF8 /* Assets.xcassets in Resources */,
+				DAA2FDB3221D8861007E0FF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA2FDBC221D8861007E0FF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA2FDC7221D8861007E0FF8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -501,6 +702,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DAA2FDA2221D885F007E0FF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA2FDB0221D8860007E0FF8 /* ViewController.m in Sources */,
+				DAA2FDAD221D8860007E0FF8 /* AppDelegate.m in Sources */,
+				DAA2FDAA221D8860007E0FF8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA2FDBA221D8861007E0FF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA2FDC3221D8861007E0FF8 /* CATransformTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA2FDC5221D8861007E0FF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA2FDCE221D8861007E0FF8 /* CATransformUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DABA20A521906E8600038CB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -541,6 +768,16 @@
 			target = DA1BEBBA2204764400F936DF /* uitapGesture */;
 			targetProxy = DA1BEBDF2204764400F936DF /* PBXContainerItemProxy */;
 		};
+		DAA2FDC0221D8861007E0FF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAA2FDA5221D885F007E0FF8 /* CATransform */;
+			targetProxy = DAA2FDBF221D8861007E0FF8 /* PBXContainerItemProxy */;
+		};
+		DAA2FDCB221D8861007E0FF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAA2FDA5221D885F007E0FF8 /* CATransform */;
+			targetProxy = DAA2FDCA221D8861007E0FF8 /* PBXContainerItemProxy */;
+		};
 		DABA20C421906E8600038CB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DABA20A821906E8600038CB3 /* autolayout */;
@@ -566,6 +803,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				DA1BEBCC2204764400F936DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DAA2FDB1221D8861007E0FF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAA2FDB2221D8861007E0FF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAA2FDB6221D8861007E0FF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAA2FDB7221D8861007E0FF8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -654,6 +907,74 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.junzhang.uitapGestureUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = uitapGesture;
+			};
+			name = Release;
+		};
+		DAA2FDD0221D8861007E0FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CATransform/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junzhang.CATransform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAA2FDD1221D8861007E0FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CATransform/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junzhang.CATransform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAA2FDD2221D8861007E0FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CATransformTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junzhang.CATransformTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CATransform.app/CATransform";
+			};
+			name = Debug;
+		};
+		DAA2FDD3221D8861007E0FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CATransformTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junzhang.CATransformTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CATransform.app/CATransform";
+			};
+			name = Release;
+		};
+		DAA2FDD4221D8861007E0FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CATransformUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junzhang.CATransformUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CATransform;
+			};
+			name = Debug;
+		};
+		DAA2FDD5221D8861007E0FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CATransformUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junzhang.CATransformUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CATransform;
 			};
 			name = Release;
 		};
@@ -823,6 +1144,7 @@
 				DA1BEBE62204764400F936DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA1BEBEC2204764400F936DF /* Build configuration list for PBXNativeTarget "uitapGestureTests" */ = {
 			isa = XCConfigurationList;
@@ -831,12 +1153,38 @@
 				DA1BEBE82204764400F936DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA1BEBED2204764400F936DF /* Build configuration list for PBXNativeTarget "uitapGestureUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA1BEBE92204764400F936DF /* Debug */,
 				DA1BEBEA2204764400F936DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA2FDD6221D8861007E0FF8 /* Build configuration list for PBXNativeTarget "CATransform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA2FDD0221D8861007E0FF8 /* Debug */,
+				DAA2FDD1221D8861007E0FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAA2FDD7221D8861007E0FF8 /* Build configuration list for PBXNativeTarget "CATransformTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA2FDD2221D8861007E0FF8 /* Debug */,
+				DAA2FDD3221D8861007E0FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAA2FDD8221D8861007E0FF8 /* Build configuration list for PBXNativeTarget "CATransformUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA2FDD4221D8861007E0FF8 /* Debug */,
+				DAA2FDD5221D8861007E0FF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
